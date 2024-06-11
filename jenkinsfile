@@ -1,0 +1,3 @@
+@Library('jenkins-shared-library') _
+
+generateNswagClient(serviceName: 'MyService', swaggerUrl: 'http://my-service/swagger/v1/swagger.json', repoUrl: 'https://github.com/sonivishal238/AutomationPOC.git')
